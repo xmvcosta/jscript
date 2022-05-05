@@ -26,3 +26,14 @@
 ////////////////////////////////////////////////////////////////////////////
 //Modulo 01 Aula 06
 //https://alunos.b7web.com.br/curso/javascript/condicionais-1
+
+// var hora = 14
+
+// if (hora < 12){
+//     document.getElementById("titulo").innerHTML = "Agora é de manha"
+//     console.log("Bom dia!")
+//     document.write("Agora é de manha")
+// } else{
+//     document.write("não é de manhã")
+// }
+
