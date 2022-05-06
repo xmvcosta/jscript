@@ -171,3 +171,14 @@
 ///////////////////////////////////////////////////////////////////////////////
 //  Modulo 02:DOM Aula 06 Manipulando Class do elemento 2
 //  https://alunos.b7web.com.br/curso/javascript/manipulando-class-do-elemento-2
+
+function trocar(){
+    if(document.querySelector("#trocar").classList.contains("preto")){
+        document.querySelector("#trocar").classList.remove("preto")
+        document.querySelector("#trocar").classList.add("azul")
+    } else {
+        document.querySelector("#trocar").classList.remove("azul")
+        document.querySelector("#trocar").classList.add("preto")
+}
+}
+        
