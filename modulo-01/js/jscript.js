@@ -147,4 +147,27 @@
 //  Modulo 02:DOM Aula 05 Manipulando Class do elemento 1
 //  https://alunos.b7web.com.br/curso/javascript/manipulando-class-do-elemento-1
 
+// function vermelho(){
+//     document.querySelector("#exemplo").classList.remove("azul")
+//     document.querySelector("#exemplo").classList.remove("verde")
+//     document.querySelector("#exemplo").classList.add("vermelho")
 
+// }
+
+// function verde(){
+//     document.querySelector("#exemplo").classList.remove("azul")
+//     document.querySelector("#exemplo").classList.remove("vermelho")
+//     document.querySelector("#exemplo").classList.add("verde")
+
+// }
+
+// function azul(){
+//     document.querySelector("#exemplo").classList.remove("verde")
+//     document.querySelector("#exemplo").classList.remove("vermelho")
+//     document.querySelector("#exemplo").classList.add("azul")
+
+// }
+
+///////////////////////////////////////////////////////////////////////////////
+//  Modulo 02:DOM Aula 06 Manipulando Class do elemento 2
+//  https://alunos.b7web.com.br/curso/javascript/manipulando-class-do-elemento-2
