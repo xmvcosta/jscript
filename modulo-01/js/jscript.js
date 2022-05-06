@@ -108,7 +108,43 @@
 //document.getElementById("exemplo").innerHTML = "<p style = color:blue>Teste</p>"
 
 ////////////////////////////////////////////////////////////////////////////
-//  Modulo 02 Aula 02
+//  Modulo 02 Aula 03
 //  https://alunos.b7web.com.br/curso/javascript/selecionando-elementos-4-funcoes-2
 
-document.getElementsByClassName("lista")[0].innerHTML = ""
+//Selecionar elemento pelo ID e alterar seu conteudo
+//document.getElementById("titulo").innerHTML = "Novo titulo"
+
+//Selecionar elemento pela CLASSE e alterar seu conteudo no array
+//document.getElementsByClassName("lista")[0].innerHTML = "Bolacha, Biscoito, Chocolate"
+
+//Selecionar elemento pelo nome da TAG HTML e alterar seu conteudo
+//document.getElementsByTagName("div")[2a].innerHTML = "<h1 style = background-color:red> teste 123</h1>"
+
+//Selecionar elemento pelo nome 
+//document.getElementsByName("email")
+
+
+// 4 maneiras usadas para selecionar elementos, existem outras....
+// document.getElementById
+// document.getElementsByClassName
+// document.getElementsByTagName
+// document.getElementsByName
+
+
+///////////////////////////////////////////////////////////////////////////////
+//  Modulo 02 Aula 04
+//  https://alunos.b7web.com.br/curso/javascript/selecionando-com-queryselector
+
+// querySelector retorna apenas o primeiro resultado
+// document.querySelector("#titulo")
+// document.querySelector(".lista")
+// document.querySelector('button').innerHTML = "Novo Botao"
+
+//querySelectorAll retona todos elementos encontrados
+//document.querySelectorAll(".lista")
+
+///////////////////////////////////////////////////////////////////////////////
+//  Modulo 02:DOM Aula 05 Manipulando Class do elemento 1
+//  https://alunos.b7web.com.br/curso/javascript/manipulando-class-do-elemento-1
+
+
