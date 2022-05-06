@@ -118,7 +118,7 @@
 //document.getElementsByClassName("lista")[0].innerHTML = "Bolacha, Biscoito, Chocolate"
 
 //Selecionar elemento pelo nome da TAG HTML e alterar seu conteudo
-//document.getElementsByTagName("div")[2a].innerHTML = "<h1 style = background-color:red> teste 123</h1>"
+//document.getElementsByTagName("div")[2].innerHTML = "<h1 style = background-color:red> teste 123</h1>"
 
 //Selecionar elemento pelo nome 
 //document.getElementsByName("email")
@@ -172,13 +172,50 @@
 //  Modulo 02:DOM Aula 06 Manipulando Class do elemento 2
 //  https://alunos.b7web.com.br/curso/javascript/manipulando-class-do-elemento-2
 
-function trocar(){
-    if(document.querySelector("#trocar").classList.contains("preto")){
-        document.querySelector("#trocar").classList.remove("preto")
-        document.querySelector("#trocar").classList.add("azul")
-    } else {
-        document.querySelector("#trocar").classList.remove("azul")
-        document.querySelector("#trocar").classList.add("preto")
-}
-}
+// function trocar(){
+//     if(document.querySelector("#trocar").classList.contains("preto")){
+//         document.querySelector("#trocar").classList.remove("preto")
+//         document.querySelector("#trocar").classList.add("azul")
+//     } else {
+//         document.querySelector("#trocar").classList.remove("azul")
+//         document.querySelector("#trocar").classList.add("preto")
+// }
+// }
         
+///////////////////////////////////////////////////////////////////////////////
+//  Modulo 02:DOM Aula 07 Tipos de dados
+//  https://alunos.b7web.com.br/curso/javascript/tipos-de-dados
+
+// var nome = "Marcos"
+// var idade = 38
+// var salvo = true
+// var cidade
+
+
+///////////////////////////////////////////////////////////////////////////////
+//  Modulo 02:DOM Aula 08 Comentários
+//  https://alunos.b7web.com.br/curso/javascript/comentarios
+
+// No javascript existem dois tipos de comentários
+
+// Comentários de 1 linha que inicia com: //
+/*
+Comentários de 
+Múltiplas linhas
+que se iniciam com: /* e se fecham com */
+
+
+///////////////////////////////////////////////////////////////////////////////
+//  Modulo 02:DOM Aula 09 Funções (1/2)
+//  https://alunos.b7web.com.br/curso/javascript/funcoes-12
+
+// function alterar(){
+//     document.getElementById("titulo").innerHTML = "Trocou o titulo"
+//     document.getElementById("campo").value = "Trocou o campo"
+// }
+
+///////////////////////////////////////////////////////////////////////////////
+//  Modulo 02:DOM Aula 10 Funções (2/2)
+//  https://alunos.b7web.com.br/curso/javascript/funcoes-22
+
+
