@@ -101,6 +101,55 @@
 
 // }
 
+
+
+//  Modulo 02 Conceitos Básicos Aula 01 - Evento de clique        
+//  https://alunos.b7web.com.br/curso/javascript/evento-de-clique 
+//
+// function clicou(){
+//     document.getElementById("titulo").innerHTML = "Clicou e alterou";
+//     console.log("clicou");
+// }
+
+
+//  Modulo 02 Conceitos Básicos Aula 02 - Evento de teclado        
+//  https://alunos.b7web.com.br/curso/javascript/evento-de-teclado 
+//
+// 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+///////////////DAQUI PARA BAIXO NO SITE DO PROFESSOR ELE AUTEROU A ORDEM DAS AULAS E NO NOME E AULAS DO MODULO
+// MAS EU JA TINHA ESTUDADO
+// ENTAO EU DEIXEI O CODIGO ABAIXO SALVO APENAS PARA ESTUDOS.........
+//
+
+
 ////////////////////////////////////////////////////////////////////////////
 //  Modulo 02 Aula 02
 //  https://alunos.b7web.com.br/curso/javascript/selecionando-elementos-4-funcoes-1
