@@ -15,6 +15,7 @@ document.getElementById("paragrafo").innerHTML = `Nome: ${nome} ${sobreNome + " 
 */
 
 //AULA 13 IF / ELSE
+/*
 let idade = 38;
 if(idade > 17){
     console.log("Maior de 18 anos.");
@@ -23,3 +24,18 @@ if(idade > 17){
     console.log("Menor de 18 anos.");
     document.getElementById("paragrafo").innerHTML = "Menor de 18 anos.";
 }
+*/
+
+
+//let carro = {marca: "Ferrari", modelo: "XXXX", placa: "ABC-1234", ano: "2022"};
+const carro = {
+    marca:"Lamborguini",
+    ano: 2022,
+    modelo: "Mazeratti",
+    cor: "vermelho",
+    buzina: function(){alert("biiiiiiiii")}
+    };
+
+console.log(carro.marca);
+console.log(carro.ano);
+console.log(carro.buzina);
