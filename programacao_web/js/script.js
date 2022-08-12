@@ -31,13 +31,16 @@ const carro = {
 //https://www.youtube.com/watch?v=McKNP3g6VBA&t=7990s&ab_channel=Programa%C3%A7%C3%A3oWeb
 //eventos
 
-/*
 function eventoClique(){
     //alert("Clicou");
-    //console.log("Clicou");
+    console.log("Clicou");
     document.body.style.backgroundColor = "red";
 }
-*/
-function trocarDeCor(){
+
+function corVermelha(){
     document.getElementById("teste").style.backgroundColor = "green";
+}
+
+function corAzul(){
+    document.getElementById("teste").style.backgroundColor = "blue";
 }
