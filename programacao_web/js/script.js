@@ -38,9 +38,25 @@ function eventoClique(){
 }
 
 function corVermelha(){
-    document.getElementById("teste").style.backgroundColor = "green";
+    let cor = document.getElementById("teste");
+    cor.style.backgroundColor = "green";
 }
 
 function corAzul(){
-    document.getElementById("teste").style.backgroundColor = "blue";
+    let cor = document.getElementById("teste");
+    cor.style.backgroundColor = "blue";
 }
+
+//const pessoa = ["Marcos","Costa",38]; //array
+//const pessoa = {nome:"Marcos", sobreNome:"Costa", idade:38};//objeto
+
+//const lista = ["Arroz", "Feijão", "Macarrão","Pão"]
+//console.log(lista);
+
+const pessoa = ["Marcos","Costa",38];
+
+console.log(pessoa.length -1);
+
+
+
+
