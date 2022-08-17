@@ -53,9 +53,9 @@ function corAzul(){
 //const lista = ["Arroz", "Feijão", "Macarrão","Pão"]
 //console.log(lista);
 
-const pessoa = ["Marcos","Costa",38];
+const pessoa = ["Marcos","Costa",38,"Técnico" ];
 
-console.log(pessoa.length -1);
+console.log(pessoa[pessoa.length -1]);
 
 
 
