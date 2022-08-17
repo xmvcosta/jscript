@@ -54,9 +54,11 @@ function corAzul(){
 //console.log(lista);
 
 const pessoa = ["Marcos","Costa",38,"Técnico" ];
+//pessoa.push("brasileiro");
+//console.log(pessoa[pessoa.length -1]);
+//alert(Array.isArray(pessoa)); //para saber se é um array
 
-console.log(pessoa[pessoa.length -1]);
-
+document.getElementById("texto").innerHTML = pessoa.join(" * ");
 
 
 
