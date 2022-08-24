@@ -57,11 +57,11 @@ function soma(valor1, valor2) {
 //                                              ARRAYS                                              //
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//const lista = ["arroz","feijão","macarrão","carne"];
-//let t = document.getElementById("texto");
+const lista = ["arroz","feijão","macarrão","carne"];
+let t = document.getElementById("texto");
 //t.innerText = lista;
 //t.innerHTML = lista;
-//t.innerHTML = lista[1];
+t.innerHTML = lista[1];
 
 const pessoa = ["Marcos", "Costa", 38, "Brasileiro"];
 //pessoa.push("Solteiro"); //adiciona +1 novo valor ao final do array
