@@ -36,7 +36,7 @@ const carro = {
 function eventoClique(){
     //alert("Clicou");
     console.log("Clicou");
-    document.body.style.backgroundColor = "red";
+    document.body.style.backgroundColor = "yellow";
 }
 
 function corVermelha(){
@@ -63,6 +63,15 @@ const pessoa = ["Marcos","Costa",38,"Técnico" ];
 
 document.getElementById("texto").innerHTML = pessoa.join(" * ");
 */
+
+
+function limparTexto(){
+    document.getElementById("nome").value = "";
+}
+
+function mudou(){
+    console.log("mudou");
+}
 
 
 

@@ -4,11 +4,13 @@ img{max-width:100%;display: block;margin: auto;}
 p{margin: 40px 0;}
 button{margin: 20px 0;}
 
-/*body{
+body{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;}*/
+    flex-direction: column;}
 
 /*CONTAINER centraliza e define tamanho do width em %*/
-.container{width:95%;margin: 0 auto;overflow: hidden;height: 200px; background-color: blueviolet;} 
+.container{width:95%;margin: 0 auto;overflow: hidden;height: 200px;} 
+
+.outra{background-color: #ccc;}
