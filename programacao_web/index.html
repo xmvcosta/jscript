@@ -1,46 +1,52 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>javascript</title>
-    <link rel="stylesheet" href="css/resetcssbasico.css" />
-  </head>
-  <body>
-    <p id="texto">texto em parágrafo</p>
-    <button onclick="eventoClique()">Clique aqui!</button>
 
-    <div
-      id="teste"
-      class="container"
-      onmouseover="corAzul()"
-      onmouseout="corVermelha()"
-    >
-      <h1>Titulo Aqui h1 Casa</h1>
-      <p>23/08/2022 terça-feira 23:43</p>
-      <input onkeypress="digitou()" value="" id="nome" type="text" placeholder="Nome aqui" >
-      <button onclick="limparTexto()" style="background-color: #ccc; padding:5px;">Limpar texto</button>
-    </div>
-    <div class="outra container">
-        <h2>Outra Div</h2>
-        <select onchange="mudou()" name="" id="">
-            <option value="1">Valor 1</option>
-            <option value="2">Valor 2</option>
-            <option value="3">Valor 3</option>
-            <option value="4">Valor 4</option>
-        </select>
-        <br>
-        <input type="checkbox" name="Metal das Estrelas" id="metaldaestrelas" onclick="eventoClique()"><span>Metal das Estrelas</span><br>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>javascript</title>
+  <link rel="stylesheet" href="css/resetcssbasico.css" />
+</head>
 
-        <input type="checkbox" name="Enxofre" id=""><br>
-        <input type="checkbox" name="Carvão" id="">
-    </div>
-    <div id="teste2" class="container" onmouseover="eventoClique()">
-        <h2>Uma nova div</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi alias aut assumenda. Nesciunt tempore rerum unde praesentium quae molestiae ratione debitis facere dolorum ullam? Temporibus exercitationem nobis asperiores reprehenderit provident.</p>
-    </div>
+<body>
+  <p id="texto">texto em parágrafo</p>
+  <button onclick="eventoClique()">Clique aqui!</button>
 
-    <script src="js/script.js"></script>
-  </body>
+  <div id="teste" class="container" onmouseover="corAzul()" onmouseout="corVermelha()">
+    <h1>Titulo Aqui h1 Casa</h1>
+    <p>23/08/2022 terça-feira 23:43</p>
+    <input onkeypress="digitou()" value="" id="nome" type="text" placeholder="Nome aqui" />
+    <button onclick="limparTexto()" style="background-color: #ccc; padding: 5px">
+      Limpar texto
+    </button>
+  </div>
+  <div class="outra container">
+    <h2>Outra Div</h2>
+    <select onchange="mudou()" name="" id="">
+      <option value="1">Valor 1</option>
+      <option value="2">Valor 2</option>
+      <option value="3">Valor 3</option>
+      <option value="4">Valor 4</option>
+    </select>
+    <br />
+    <input type="checkbox" name="Metal das Estrelas" id="metaldaestrelas" onclick="eventoClique()" /><span>Metal das
+      Estrelas</span><br />
+
+    <input type="checkbox" name="Enxofre" id="" /><br />
+    <input type="checkbox" name="Carvão" id="" />
+  </div>
+  <div id="teste2" class="container" onmouseover="eventoClique()">
+    <h2>Uma nova div</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi alias
+      aut assumenda. Nesciunt tempore rerum unde praesentium quae molestiae
+      ratione debitis facere dolorum ullam? Temporibus exercitationem nobis
+      asperiores reprehenderit provident.
+    </p>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+
 </html>
