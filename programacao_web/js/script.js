@@ -1,3 +1,5 @@
+
+
 /*
 function soma(valor1, valor2){
     return valor1 + valor2;
@@ -53,12 +55,14 @@ function corAzul(){
 //const lista = ["Arroz", "Feijão", "Macarrão","Pão"]
 //console.log(lista);
 
+/*
 const pessoa = ["Marcos","Costa",38,"Técnico" ];
 //pessoa.push("brasileiro");
 //console.log(pessoa[pessoa.length -1]);
 //alert(Array.isArray(pessoa)); //para saber se é um array
 
 document.getElementById("texto").innerHTML = pessoa.join(" * ");
+*/
 
 
 
