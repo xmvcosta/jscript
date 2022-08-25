@@ -70,9 +70,14 @@ let p = document.getElementById("texto");
 //pessoa.push("Solteiro"); //adiciona +1 novo valor ao final do array
 //pessoa[pessoa.length] = "Solteiro"; //adiciona +1 novo valor ao final do array
 //alert(pessoa[pessoa.length -1]); //exibe o último item do array 
-//pessoa.pop(); remove o último item do array
+//pessoa.unshift("lindão"); //adiciona um item na primeira posição da matriz/array
+//pessoa.shift();// remove o primeiro item do array/matriz
+//pessoa.pop(); //remove o último item do array
+//delete pessoa[0]; //exclui um item em uma determina posição e "seta" a posição para undefined
+//pessoa.push("Solteiro");// adiciona item ao final do array
 
-p.innerHTML = pessoa
+
+p.innerHTML = pessoa;
 
 
 
