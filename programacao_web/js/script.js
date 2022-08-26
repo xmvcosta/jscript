@@ -66,6 +66,10 @@ function soma(valor1, valor2) {
 
 const pessoa = ["Marcos", "Costa", 38, "Brasileiro"];
 let p = document.getElementById("texto");
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                            MÉTODOS PARA ARRAYS                                   //
+/////////////////////////////////////////////////////////////////////////////////////////////////////
 //p.innerHTML = pessoa.join(" ? "); muda o caracter que separa os itens do array ao serem exibidos
 //pessoa.push("Solteiro"); //adiciona +1 novo valor ao final do array
 //pessoa[pessoa.length] = "Solteiro"; //adiciona +1 novo valor ao final do array
@@ -75,9 +79,32 @@ let p = document.getElementById("texto");
 //pessoa.pop(); //remove o último item do array
 //delete pessoa[0]; //exclui um item em uma determina posição e "seta" a posição para undefined
 //pessoa.push("Solteiro");// adiciona item ao final do array
+//pessoa.splice(1,0,"item1","item2"); //adiciona itens a partir de uma determinada posição no array
 
 
-p.innerHTML = pessoa;
+//p.innerHTML = pessoa;
+
+//const lista1=["suco", "refrigerante","cerveja"]; //array
+//const lista2=["carne", "linguiça", "frango"]; //array
+//const lista3=["1,2,3","4,5,6"];
+//const superLista = lista1.concat(lista2,lista3);
+//const jogadores = ["bebeto", "roberto carlos", "amaral", "romario", "tonhão", "zequinha","valderrama"];
+//const craques = jogadores.slice(2,4); //fatia da posição 2 até a posição 4
+//jogadores.sort();//mostra o array em ordem alfabetica
+//jogadores.reverse();//inverte a ordem de exibição do array-matriz
+
+//document.getElementById("texto").innerHTML = superLista;
+//document.getElementById("texto").innerHTML = lista1;
+//document.getElementById("texto").innerHTML = jogadores;
+
+
+const numeros = [100,250,10,20,21,30,31,40];
+let n = document.getElementById("texto");
+
+//numeros.sort(function(a,b){return a-b});//função que mostra os numeros em ordem crescente 
+
+
+n.innerHTML = numeros;
 
 
 
