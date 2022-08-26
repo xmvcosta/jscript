@@ -28,6 +28,19 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: green;
+    /*height: 100%;*/
+}
+header{
+    background-color: yellow;
+}
+main{
+    background-color: blue;
+    color:white;
+}
+footer{
+    background-color: white;
+    
 }
 
 /*CLASSES*/
