@@ -19,10 +19,10 @@
     // console.log("Não pode entrar");
 // }
 
-let idade = 38;
-let nome = "Marcos";
-let passaPorte = true;
+// let idade = 38;
+// let nome = "Marcos";
+// let passaPorte = true;
 
-if((idade < 37 && nome == "marcos") || passaPorte == true){
-    console.log("Bem vindo Marcos, liberado a sua entrada.");
-}
+// if((idade < 37 && nome == "marcos") || passaPorte == true){
+    // console.log("Bem vindo Marcos, liberado a sua entrada.");
+// }
