@@ -178,3 +178,56 @@
 //     return x * 2;
 // }
 // console.log(multiplicarPorDois(18));
+
+// let idade = 38;
+
+// function olaMundo(){
+//     console.log(`Você tem ${idade} anos`);
+// }
+// olaMundo();
+
+
+
+// function somar(a,b){
+//     return a+b;
+
+// }
+// console.log(somar(4,5));
+
+// function numeroAleatorio(num){
+//     return Math.floor(Math.random() * num)+1;
+// }
+
+// console.log(numeroAleatorio(100));
+// console.log(numeroAleatorio(500));
+
+// let idade = 50;
+// function verificarIdade() {
+//     if (idade >= 18) {
+//         console.log(`Você têm ${idade} anos e pode entrar.`);
+//     } else {
+//         console.log(`Você têm ${idade} anos e não pode entrar.`);
+//     }
+// }
+// verificarIdade();
+
+// function verificaTipoDeDado(dado){
+//     if(typeof dado === 'string'){
+//         console.log("Este dado é uma string");
+//     } else if( typeof dado === 'number'){
+//         console.log("Este dado é um number");
+//     } else {
+//         console.log("Este dado é um boolean");
+//     }
+
+// }
+// verificaTipoDeDado("Marcos");
+// verificaTipoDeDado(true);
+// verificaTipoDeDado(38);
+
+function numeroPos(numeroNegativo){
+    return Math.abs(numeroNegativo);
+}
+
+console.log(numeroPos(-38));
+console.log(numeroPos(-100));
