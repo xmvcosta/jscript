@@ -225,9 +225,9 @@
 // verificaTipoDeDado(true);
 // verificaTipoDeDado(38);
 
-function numeroPos(numeroNegativo){
-    return Math.abs(numeroNegativo);
-}
+// function numeroPos(numeroNegativo){
+//     return Math.abs(numeroNegativo);
+// }
 
-console.log(numeroPos(-38));
-console.log(numeroPos(-100));
+// console.log(numeroPos(-38));
+// console.log(numeroPos(-100));
