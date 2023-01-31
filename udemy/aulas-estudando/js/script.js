@@ -22,3 +22,9 @@
 // console.log("O nome dela é 'Jenniffer'");
 // console.log(`A soma de 20 + 20 é ${20+20}`);
 // console.log("O Meu" + " nome é" + " Marcos");
+
+/* 22. Booleans*/
+// console.log(typeof(true));
+// console.log(typeof(false));
+// console.log(typeof(10 > 2));
+// console.log(typeof(5 >200));

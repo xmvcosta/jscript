@@ -17,6 +17,8 @@ img {
 
 p {
     margin: 40px 0;
+    background-color: #d1d1d1;
+    color: #000;
 }
 
 button {
