@@ -40,7 +40,7 @@
 // console.log(4 === 4);
 
 /* 25. Operadores lógicos*/
-console.log(true && true);
-console.log(true && false);
-console.log(false || false);
-console.log(!true);
+//console.log(true && true);
+//console.log(true && false);
+//console.log(false || false);
+//console.log(!true);
