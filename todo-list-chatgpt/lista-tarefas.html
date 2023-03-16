@@ -1,0 +1,151 @@
+<html>
+  <head>
+    <style>
+      body {
+        background-color: #e1edd1;
+        display: flex;
+        justify-content: center;
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0 auto;
+        padding: 0;
+        max-width: 1024px;
+        min-width: 300px;
+        
+      }
+
+      li {
+        background-color: #aab69b;
+        margin: 8px;
+        padding: 8px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      li.completed {
+        background-color: #9eee91;
+        text-decoration: line-through;
+      }
+
+      #add-task-btn,
+      #delete-task-btn,
+      #remove-all-btn,
+      #sort-name-btn,
+      #sort-completion-btn {
+        background-color: #9e906e;
+        color: #fff;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 5px;
+        margin-left: 8px;
+        cursor: pointer;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+        transition: all 0.2s ease-in-out;
+      }
+
+      #add-task-btn:hover,
+      #delete-task-btn:hover,
+      #remove-all-btn:hover,
+      #sort-name-btn:hover,
+      #sort-completion-btn:hover {
+        background-color: #b47941;
+        transform: translateY(-2px);
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+      }
+
+      #task-input {
+        border: none;
+        padding: 8px;
+        border-radius: 5px;
+        margin-right: 8px;
+        flex: 1;
+      }
+
+      h1 {
+        color: #cf391d;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 1px #000;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Minha Lista de Tarefas</h1>
+      <div>
+        <button id="sort-name-btn">Classificar por Nome</button>
+        <button id="sort-completion-btn">Classificar por Conclusão</button>
+      </div>
+      <ul id="task-list"></ul>
+      <div>
+        <input type="text" id="task-input" />
+        <button id="add-task-btn">Adicionar Tarefa</button>
+        <button id="remove-all-btn">Remover Todas</button>
+      </div>
+    </div>
+  </body>
+  
+  <script>
+    const taskList = document.querySelector("#task-list");
+    const taskInput = document.querySelector("#task-input");
+    const addTaskBtn = document.querySelector("#add-task-btn");
+    const removeAllBtn = document.querySelector("#remove-all-btn");
+    const sortNameBtn = document.querySelector("#sort-name-btn");
+let tasks = [];
+
+function renderTasks() {
+  taskList.innerHTML = "";
+  tasks.forEach((task, index) => {
+    const li = document.createElement("li");
+    li.innerText = task.title;
+    if (task.completed) {
+      li.classList.add("completed");
+    }
+    const deleteBtn = document.createElement("button");
+    deleteBtn.innerText = "X";
+    deleteBtn.addEventListener("click", () => {
+      tasks.splice(index, 1);
+      renderTasks();
+    });
+    const toggleBtn = document.createElement("button");
+    toggleBtn.innerText = task.completed ? "Desfazer" : "Concluir";
+    toggleBtn.addEventListener("click", () => {
+      task.completed = !task.completed;
+      renderTasks();
+    });
+    li.appendChild(deleteBtn);
+    li.appendChild(toggleBtn);
+    taskList.appendChild(li);
+  });
+}
+
+addTaskBtn.addEventListener("click", () => {
+  const title = taskInput.value;
+  if (title) {
+    tasks.push({ title, completed: false });
+    taskInput.value = "";
+    renderTasks();
+  }
+});
+
+removeAllBtn.addEventListener("click", () => {
+  tasks = [];
+  renderTasks();
+});
+
+sortNameBtn.addEventListener("click", () => {
+  tasks.sort((a, b) => a.title.localeCompare(b.title));
+  renderTasks();
+});
+
+sortCompletionBtn.addEventListener("click", () => {
+  tasks.sort((a, b) => a.completed - b.completed);
+  renderTasks();
+});
+
+renderTasks();
+  </script>
+</html>
