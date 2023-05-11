@@ -1,0 +1,15 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+        body{font-family: Verdana,Tahoma, sans-serif;height: 100vh;background-color: #4682B4;}
+        .container{
+            background-color: #B0C4DE;
+            max-width: 500px;
+            border: 1px solid #000;
+            text-align: center;
+            margin: 5px auto;
+        }
+        .item{
+            background-color: #fff;
+        }
+        .flex{
+            display: flex;
+        }
