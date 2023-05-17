@@ -1,31 +1,22 @@
 "use restrict"
 
-// function soma(n1,n2){
-//     console.log(n1 + n2)
-// }
-// soma(10,50)
-
-//valores default
-// function soma(n1=10,n2=3){
-//     console.log(n1 * n2)
-// }
-
-// soma()
-// soma(40)
-// soma(5,10)
-
-// function soma(n1,n2){
+// function soma(n1=0,n2=0){
 //     return n1 + n2
 // }
 
 // console.log(soma(10,20))
 
-function add(v){
-    return  valor + v
+// function soma(...valores){
+//     return valores.length
+// }
+// console.log(soma(10,5,3))
+
+function soma(...valores){
+    let tam=valores.length
+    let res=0
+    for(let i=0;i<tam;i++){
+        res+=valores[i]
+    }
+    return res
 }
-
-let valor=0
-
-valor = add(15)
-
-console.log(valor)
+console.log(soma(7,5,19,4,23))
