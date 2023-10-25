@@ -8,12 +8,9 @@
     --fonte-paragrafo: Verdana, Arial, sans-serif;
   }
 
-  img {
-    width: 100%;
-    height: auto;
-}
+  img {width: 100%;height: auto;}
 
-a{  text-decoration: none;}
+a{text-decoration: none;}
 
 body {
     margin: 0;
@@ -27,7 +24,6 @@ body {
     height: 100vh;
     background-color: var(--main-bg-color);
     font-family: Verdana,Tahoma, sans-serif;   
-    
 }
 
 
@@ -56,11 +52,16 @@ p{
     /* text-align: justify; */
     /* text-indent: 3em; */
     line-height: 1.5;
-    /* padding: 0.5em; */
-    background-color: red;
+    padding: 0.5em;
 }
 
 .container {
     width: 90%;
     max-width: 1024px;
+}
+
+div{
+    margin-top: 1em;
+    padding: 1em;
+    background-color: #f0f0f0;
 }
