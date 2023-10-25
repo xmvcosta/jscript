@@ -27,14 +27,14 @@ body {
     height: 100vh;
     background-color: var(--main-bg-color);
     font-family: Verdana,Tahoma, sans-serif;   
-    line-height: 1.6;
+    
 }
-
 
 
 header{
     background-color: var(--qua-color);
 }
+
 nav{
     background-color: var(--seg-color);
     text-align: center;
@@ -50,17 +50,17 @@ footer{
 h1,h2,h3,h4,h5,h6{
     font-family: var(--fonte-titulo);
     text-align: center;
-    
 }
 
 p{
-    text-align: justify;
-    text-indent: 3em;
+    /* text-align: justify; */
+    /* text-indent: 3em; */
+    line-height: 1.5;
+    /* padding: 0.5em; */
+    background-color: red;
 }
 
 .container {
     width: 90%;
     max-width: 1024px;
-    overflow: hidden;
-    
 }
