@@ -30,6 +30,22 @@ header, main, footer{
 
 header{background-color: var(--qua-color);}
 
+#header_info{
+    
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+#header_logo{
+    margin-top: 1em;
+    width: 116px;
+    height: 116px;
+}
+#header_info h1{
+    flex: 1;
+}
+
 /* nav{
     background-color: var(--seg-color);
     text-align: center;
@@ -60,7 +76,7 @@ p{
     word-break: keep-all;
 }
 
-img{display: block;margin: auto;max-width: 100%;border-radius:5px;}
+img{display: block;margin: auto;max-width: 100px;border-radius:5px;box-shadow: 2px 2px 5px #999;}
 
 a{text-decoration: none;}
 
