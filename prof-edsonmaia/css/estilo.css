@@ -24,6 +24,10 @@ body {
     overflow: hidden;
 }
 
+header, main, footer{
+    padding: 0.5em;
+}
+
 header{background-color: var(--qua-color);}
 
 /* nav{
@@ -31,22 +35,21 @@ header{background-color: var(--qua-color);}
     text-align: center;
     padding: 1em;
 } */
+
 main{   
     background-color: var(--qui-color);
-    
-    
 }
 footer{ 
     background-color: var(--ter-color);
     color: #fff;
     text-align: center;
-    
 }
 
 h1,h2,h3,h4,h5,h6{
     font-family: var(--fonte-titulo);
     text-align: center;
-    text-shadow: 1px 1px 2px var(--ter-color)
+    text-shadow: 1px 1px 2px var(--ter-color);
+    margin: 0.5em 0;
 }
 
 p{
