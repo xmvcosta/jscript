@@ -88,3 +88,12 @@
 
 //AULA 04 - Curso de JS Aula 04 Arrays, métodos, length e spreed operator
 //https://www.youtube.com/watch?v=XisY6rpfbiw&ab_channel=ProfessorEdsonMaia
+
+let produtos = ['Arroz', 'Feijão', 'Leite']
+var codigos = Array(10,20,30)
+let meses = ['Jan', 'Fev', 'Mar', 'Abr']
+
+//adiciona dados ao final do array push = empurre
+produtos.push('Açúcar', 'Trigo') 
+codigos.push(40, 50, 60, 70)
+meses.push('Mai', 'Jun','Jul','Ago')
