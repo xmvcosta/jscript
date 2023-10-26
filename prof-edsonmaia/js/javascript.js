@@ -93,13 +93,19 @@ let produtos = ['Arroz', 'Feijão', 'Leite']
 var codigos = Array(10,20,30)
 let meses = ['Jan', 'Fev', 'Mar', 'Abr']
 
-//adiciona dados ao final do array push = empurre
+//metodo para adicionar elementos (dado) ao final do array push = empurre
 produtos.push('Açúcar', 'Trigo') 
 codigos.push(40, 50, 60, 70)
 meses.push('Mai', 'Jun','Jul','Ago')
 
-//remove o ultimo elemento do array pop = estourar
+//metodo para remover o ultimo elemento (dado) do array pop = estourar
 produtos.pop()
 codigos.pop()
 meses.pop()
 meses.pop() //podemos usar o metodo pop mais de uma vez, assim como os outros.
+
+//metodo para adicionar elemento (dado) ao inicio do array unshift
+produtos.unshift('Uva', 'Maçã')
+
+//metodo para remover elemento (dado) do inicio shift
+produtos.shift()
