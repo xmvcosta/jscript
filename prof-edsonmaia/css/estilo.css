@@ -5,36 +5,26 @@
     --qua-color:#f5df98;
     --qui-color:#fff8d4; 
     --fonte-titulo: Georgia,'Times New Roman', Times, serif;
-    --fonte-texto: "Roboto", Verdana, Arial, sans-serif;
+    --fonte-texto: Verdana, Arial, sans-serif;
   }
 
+/*RESET GERAL*/
+*, *::after, *::before {margin: 0;padding: 0;box-sizing: border-box;border: none;outline: none;text-decoration: none;}
 
-*, *::after, *::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    border: none;
-    outline: none;
-    text-decoration: none;
-}
-
-img {width: 100%;height: auto;}
-
-a{text-decoration: none;}
+html, body{height: 100vh;font-size: 100%;}
 
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     height: 100vh;
     background-color: var(--main-bg-color);
     color: black; 
     font-size: 16px;
     font-family: var(--fonte-texto);
     line-height: 1.625em;
+    scroll-behavior: smooth;
+    overflow: hidden;
 }
 
-header{background-color: var(--qua-color);padding: 1em;}
+header{background-color: var(--qua-color);}
 
 /* nav{
     background-color: var(--seg-color);
@@ -43,11 +33,10 @@ header{background-color: var(--qua-color);padding: 1em;}
 } */
 main{   
     background-color: var(--qui-color);
-    min-height: 400px;
-    padding: 1em;
+    
+    
 }
 footer{ 
-    padding: 1em;
     background-color: var(--ter-color);
     color: #fff;
     text-align: center;
@@ -57,6 +46,7 @@ footer{
 h1,h2,h3,h4,h5,h6{
     font-family: var(--fonte-titulo);
     text-align: center;
+    text-shadow: 1px 1px 2px var(--ter-color)
 }
 
 p{
@@ -67,9 +57,14 @@ p{
     word-break: keep-all;
 }
 
+img {display:block;margin:auto;max-width: 100%;height: auto;}
+
+a{text-decoration: none;}
+
 .container {
-    width: 90%;
-    max-width: 1024px;
+    width: 95%;
+    margin:0 auto;
+    overflow: hidden;
 }
 
 
