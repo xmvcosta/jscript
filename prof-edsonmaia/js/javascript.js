@@ -42,7 +42,7 @@
 // document.write("<p>É doador? = "+ ehDoador + "</p>")
 // document.write("<p>Sexo = " + sexo + "</p>")
 // document.write(`O valor de PI é ${PI}`)// forma de template string
-// document.write("<p>Valor da Taxa = " + TAXA + "</p")
+//  document.write("<p>Valor da Taxa = " + TAXA + "</p")
 
 //
 
