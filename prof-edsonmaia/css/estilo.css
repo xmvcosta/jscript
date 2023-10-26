@@ -60,7 +60,7 @@ p{
     word-break: keep-all;
 }
 
-img {display:block;margin:auto;max-width: 100%;height: auto;}
+img{display: block;margin: auto;max-width: 100%;border-radius:5px;}
 
 a{text-decoration: none;}
 
