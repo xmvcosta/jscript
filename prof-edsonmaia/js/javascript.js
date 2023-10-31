@@ -109,3 +109,5 @@ produtos.unshift('Uva', 'Maçã')
 
 //metodo para remover elemento (dado) do inicio shift
 produtos.shift()
+
+//teste
