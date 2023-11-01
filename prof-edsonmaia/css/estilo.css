@@ -11,17 +11,15 @@
 /*RESET GERAL*/
 *, *::after, *::before {margin: 0;padding: 0;box-sizing: border-box;}
 
-html, body{height: 100vh;font-size: 100%;}
-
 body {
-    height: 100vh;
+    /* height: 100vh; */
     background-color: var(--main-bg-color);
     color: black; 
     font-size: 16px;
     font-family: var(--fonte-texto);
     line-height: 1.625em;
     scroll-behavior: smooth;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 header, main, footer{
@@ -83,7 +81,7 @@ a{text-decoration: none;}
 .container {
     width: 95%;
     margin:0 auto;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 
