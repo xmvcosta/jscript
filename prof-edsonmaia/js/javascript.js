@@ -88,34 +88,33 @@
 //AULA 04 - Curso de JS Aula 04 Arrays, métodos, length e spreed operator
 //https://www.youtube.com/watch?v=XisY6rpfbiw&ab_channel=ProfessorEdsonMaia
 
-let produtos = ['Arroz', 'Feijão', 'Leite']
-var codigos = Array(10,20,30)
+//let produtos = ['Arroz', 'Feijão', 'Leite']
+//var codigos = Array(10,20,30)
+//var test = Array(10)
 
-var test = Array(10)
+//test[0] = "Oi"
+//test[9] = "Tudo bem?"
+//test[10] = "Opa!"
 
-test[0] = "Oi"
-test[9] = "Tudo bem?"
-test[10] = "Opa!"
-
-let meses = ['Jan', 'Fev', 'Mar', 'Abr'] //modifica substituindo o conteudo do indice de numero 0
-meses[0] = 'Janeiro' 
+//let meses = ['Jan', 'Fev', 'Mar', 'Abr'] //modifica substituindo o conteudo do indice de numero 0
+//meses[0] = 'Janeiro' 
 
 //metodo para adicionar elementos (dado) ao final do array push = empurre
-produtos.push('Açúcar', 'Trigo') 
-codigos.push(40, 50, 60, 70)
-meses.push('Mai', 'Jun','Jul','Ago')
+//produtos.push('Açúcar', 'Trigo') 
+//codigos.push(40, 50, 60, 70)
+//meses.push('Mai', 'Jun','Jul','Ago')
 
 //metodo para remover o ultimo elemento (dado) do array pop = estourar
-produtos.pop()
-codigos.pop()
-meses.pop()
-meses.pop() //podemos usar o metodo pop mais de uma vez, assim como os outros.
+//produtos.pop()
+//codigos.pop()
+//meses.pop()
+//meses.pop() //podemos usar o metodo pop mais de uma vez, assim como os outros.
 
 //metodo para adicionar elemento (dado) ao inicio do array unshift
-produtos.unshift('Uva', 'Maçã')
+//produtos.unshift('Uva', 'Maçã')
 
 //metodo para remover elemento (dado) do inicio shift
-produtos.shift()
+//produtos.shift()
 
 //REMOVER de uma posicao especifico
 //posicao inicial, quantos remover
@@ -123,8 +122,8 @@ produtos.shift()
 
 //COPIAR array slice == fatiar porção
 //posiçao inicial, quantos copiar
-let meses1 = meses.slice()
-let meses2 = meses.slice(0,3)
+//let meses1 = meses.slice()
+//let meses2 = meses.slice(0,3)
 
 //ver tamanho do array lenght comprimento
 //meses.lenght
@@ -132,8 +131,6 @@ let meses2 = meses.slice(0,3)
 //meses2.lenght
 
 //spreed operator ... copiar o conteudo de um array e inserir... espalhar dentro de outro array
-let teste = [...produtos,'Ovo','Pera']
-
-
+//let teste = [...produtos,'Ovo','Pera']
 
 
