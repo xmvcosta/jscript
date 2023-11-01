@@ -136,13 +136,13 @@
 //AULA 05 - Curso de JS Aula 05 Objetos em JavaScript
 //https://www.youtube.com/watch?v=yFrd7712G3I
 
-let pessoa = {
-    nome   : "Marcos",
-    idade  : 39,
-    peso   : 66.5,
-    altura : 1.71,
-    doador : false,
-}
+// let pessoa = {
+//     nome   : "Marcos",
+//     idade  : 39,
+//     peso   : 66.5,
+//     altura : 1.71,
+//     doador : false,
+// }
 
 //cria objeto com propriedades/atributos (array vazio)
 // let produtos = {
@@ -150,16 +150,16 @@ let pessoa = {
 //     preco : []
 // }
 
-let produtos = {
-    descricao : "", 
-    preco : 0.0
-}
+// let produtos = {
+//     descricao : "", 
+//     preco : 0.0
+// }
 
-const carros = {
-    marca : ['Ford', 'Fiat', 'GM'],
-    modelo : ['Ka', 'Uno', 'Corsa'],
-    ano : [1999, 2005, 2010]
-}
+// const carros = {
+//     marca : ['Ford', 'Fiat', 'GM'],
+//     modelo : ['Ka', 'Uno', 'Corsa'],
+//     ano : [1999, 2005, 2010]
+// }
 
 //como acessar uma propriedade usando o . (ponto)
 /*
@@ -178,23 +178,36 @@ pessoa['altura']
 */
 
 //calculo do IMC da pessoa IMC = peso / (altura * altura)
-let imc = pessoa.peso / (pessoa.altura * pessoa.altura)
+// let imc = pessoa.peso / (pessoa.altura * pessoa.altura)
 
 // .toFixed(x)
 // limita o numero de casas decimais
-console.log("IMC = " + imc.toFixed(2))
+// console.log("IMC = " + imc.toFixed(2))
 
 // alterar/atualizar valor da propriedade
-pessoa.nome = "Marcos Costa"
-produtos.descricao = ['Arroz']
-produtos.preco = ['4.99']
+// pessoa.nome = "Marcos Costa"
+// produtos.descricao = ['Arroz']
+// produtos.preco = ['4.99']
 
 // usando spread operator
-produtos.descricao = [...produtos.descricao, 'Feijão', 'Trigo']
-produtos.preco = [...produtos.preco, 9.99, 4.79]
+// produtos.descricao = [...produtos.descricao, 'Feijão', 'Trigo']
+// produtos.preco = [...produtos.preco, 9.99, 4.79]
 
 
 // usando spread operator em objetos const
-carros.marca = [...carros.marca, 'WV']
-carros.modelo = [...carros.modelo, 'Fusca']
-carros.ano = [...carros.ano, '1979']
+// carros.marca = [...carros.marca, 'WV']
+// carros.modelo = [...carros.modelo, 'Fusca']
+// carros.ano = [...carros.ano, '1979']
+
+//AULA 06 - Curso de JS Aula 06 Revisão e Desafios em JavaScript
+//https://www.youtube.com/watch?v=VrO_slcY5LM
+
+let produto = "Arroz"
+let quantidade = 2
+let precoUnitario = 4.99
+let precoTotal = quantidade * precoUnitario
+
+document.write(`Preço total R$${precoTotal} <br>`)
+console.log(new Intl.NumberFormat('pt-BR').format(precoTotal))
+
+document.write(`Preço total ${precoTotal.toLocaleString('pt-BR',{style: 'currency', currency:'BRL'})}<hr>`)
