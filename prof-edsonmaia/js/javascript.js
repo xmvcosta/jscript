@@ -85,13 +85,20 @@
 // console.log(n1 >= n2)
 // console.log(n1 <= n2)
 
-
 //AULA 04 - Curso de JS Aula 04 Arrays, métodos, length e spreed operator
 //https://www.youtube.com/watch?v=XisY6rpfbiw&ab_channel=ProfessorEdsonMaia
 
 let produtos = ['Arroz', 'Feijão', 'Leite']
 var codigos = Array(10,20,30)
-let meses = ['Jan', 'Fev', 'Mar', 'Abr']
+
+var test = Array(10)
+
+test[0] = "Oi"
+test[9] = "Tudo bem?"
+test[10] = "Opa!"
+
+let meses = ['Jan', 'Fev', 'Mar', 'Abr'] //modifica substituindo o conteudo do indice de numero 0
+meses[0] = 'Janeiro' 
 
 //metodo para adicionar elementos (dado) ao final do array push = empurre
 produtos.push('Açúcar', 'Trigo') 
