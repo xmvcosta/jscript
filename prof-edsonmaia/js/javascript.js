@@ -219,3 +219,14 @@ const imc = peso / (altura * altura)
 
 document.write(`IMC: ${imc} <br>`)
 document.write(`IMC: ${imc.toFixed(2)}<hr>`)
+
+let nota1 = 5
+let nota2 = 5
+let nota3 = 5
+let notaFinal = nota1 + nota2 + nota3
+document.write("Nota final " + notaFinal + '<hr>')
+
+let compra = 1999.99
+let desconto = 145.2
+let compraComDesconto = compra - desconto
+document.write("Compra com desconto " + compraComDesconto.toLocaleString('pt-BR',{style: 'currency', currency:'BRL'}) + "<hr>")
