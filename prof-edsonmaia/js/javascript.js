@@ -133,4 +133,68 @@
 //spreed operator ... copiar o conteudo de um array e inserir... espalhar dentro de outro array
 //let teste = [...produtos,'Ovo','Pera']
 
+//AULA 05 - Curso de JS Aula 05 Objetos em JavaScript
+//https://www.youtube.com/watch?v=yFrd7712G3I
 
+let pessoa = {
+    nome   : "Marcos",
+    idade  : 39,
+    peso   : 66.5,
+    altura : 1.71,
+    doador : false,
+}
+
+//cria objeto com propriedades/atributos (array vazio)
+// let produtos = {
+//     descricao : [],  
+//     preco : []
+// }
+
+let produtos = {
+    descricao : "", 
+    preco : 0.0
+}
+
+const carros = {
+    marca : ['Ford', 'Fiat', 'GM'],
+    modelo : ['Ka', 'Uno', 'Corsa'],
+    ano : [1999, 2005, 2010]
+}
+
+//como acessar uma propriedade usando o . (ponto)
+/*
+pessoa.nome
+pessoa.idade
+pessoa.peso
+pessoa.altura
+*/
+
+// acessar propriedade usando ['']
+/*
+pessoa['nome']
+pessoa['idade']
+pessoa['peso']
+pessoa['altura']
+*/
+
+//calculo do IMC da pessoa IMC = peso / (altura * altura)
+let imc = pessoa.peso / (pessoa.altura * pessoa.altura)
+
+// .toFixed(x)
+// limita o numero de casas decimais
+console.log("IMC = " + imc.toFixed(2))
+
+// alterar/atualizar valor da propriedade
+pessoa.nome = "Marcos Costa"
+produtos.descricao = ['Arroz']
+produtos.preco = ['4.99']
+
+// usando spread operator
+produtos.descricao = [...produtos.descricao, 'Feijão', 'Trigo']
+produtos.preco = [...produtos.preco, 9.99, 4.79]
+
+
+// usando spread operator em objetos const
+carros.marca = [...carros.marca, 'WV']
+carros.modelo = [...carros.modelo, 'Fusca']
+carros.ano = [...carros.ano, '1979']
