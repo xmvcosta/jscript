@@ -110,5 +110,23 @@ produtos.unshift('Uva', 'Maçã')
 //metodo para remover elemento (dado) do inicio shift
 produtos.shift()
 
-//teste
-//teste deu certo em baixar na tti e em casa
+//REMOVER de uma posicao especifico
+//posicao inicial, quantos remover
+//codigos.splice(1, 3)
+
+//COPIAR array slice == fatiar porção
+//posiçao inicial, quantos copiar
+let meses1 = meses.slice()
+let meses2 = meses.slice(0,3)
+
+//ver tamanho do array lenght comprimento
+//meses.lenght
+//meses1.lenght
+//meses2.lenght
+
+//spreed operator ... copiar o conteudo de um array e inserir... espalhar dentro de outro array
+let teste = [...produtos,'Ovo','Pera']
+
+
+
+
