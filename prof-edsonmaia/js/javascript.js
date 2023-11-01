@@ -207,7 +207,15 @@ let quantidade = 2
 let precoUnitario = 4.99
 let precoTotal = quantidade * precoUnitario
 
-document.write(`Preço total R$${precoTotal} <br>`)
+document.write(`Preço total R$ ${precoTotal} <br>`)
 console.log(new Intl.NumberFormat('pt-BR').format(precoTotal))
 
-document.write(`Preço total ${precoTotal.toLocaleString('pt-BR',{style: 'currency', currency:'BRL'})}<hr>`)
+document.write(`Preço total ${precoTotal.toLocaleString('pt-BR',{style: 'currency', currency:'BRL'})} <hr>`)
+
+const nome = 'Marcos'
+const peso = 66
+const altura = 1.70
+const imc = peso / (altura * altura)
+
+document.write(`IMC: ${imc} <br>`)
+document.write(`IMC: ${imc.toFixed(2)}<hr>`)
