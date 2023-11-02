@@ -202,32 +202,32 @@ pessoa['altura']
 //AULA 06 - Curso de JS Aula 06 Revisão e Desafios em JavaScript
 //https://www.youtube.com/watch?v=VrO_slcY5LM
 
-// let produto = "Arroz"
-// let quantidade = 2
-// let precoUnitario = 4.99
-// let precoTotal = quantidade * precoUnitario
+let produto = "Arroz"
+let quantidade = 2
+let precoUnitario = 4.99
+let precoTotal = quantidade * precoUnitario
 
-// document.write(`Preço total R$ ${precoTotal} <br>`)
-// console.log(new Intl.NumberFormat('pt-BR').format(precoTotal))
+document.write(`Preço total R$ ${precoTotal} <br>`)
+console.log(new Intl.NumberFormat('pt-BR').format(precoTotal))
 
-// document.write(`Preço total ${precoTotal.toLocaleString('pt-BR',{style: 'currency', currency:'BRL'})} <hr>`)
+document.write(`Preço total ${precoTotal.toLocaleString('pt-BR',{style: 'currency', currency:'BRL'})} <hr>`)
 
-// const nome = 'Marcos'
-// const peso = 66
-// const altura = 1.70
-// const imc = peso / (altura * altura)
+const nome = 'Marcos'
+const peso = 66
+const altura = 1.70
+const imc = peso / (altura * altura)
 
-// document.write(`IMC: ${imc} <br>`)
-// document.write(`IMC: ${imc.toFixed(2)}<hr>`)
+document.write(`IMC: ${imc} <br>`)
+ document.write(`IMC: ${imc.toFixed(2)}<hr>`)
 
-// let nota1 = 5
-// let nota2 = 5
-// let nota3 = 5
-// let notaFinal = nota1 + nota2 + nota3
-// document.write("Nota final " + notaFinal + '<hr>')
+ let nota1 = 5
+ let nota2 = 5
+ let nota3 = 5
+ let notaFinal = nota1 + nota2 + nota3
+ document.write("Nota final " + notaFinal + '<hr>')
 
-// let compra = 1999.99
-// let desconto = 145.2
-// let compraComDesconto = compra - desconto
-// document.write("Compra com desconto " + compraComDesconto.toLocaleString('pt-BR',{style: 'currency', currency:'BRL'}) + "<hr>")
+ let compra = 1999.99
+ let desconto = 145.2
+ let compraComDesconto = compra - desconto
+ document.write("Compra com desconto " + compraComDesconto.toLocaleString('pt-BR',{style: 'currency', currency:'BRL'}) + "<hr>")
 
